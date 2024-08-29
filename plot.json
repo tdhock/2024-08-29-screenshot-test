@@ -1,0 +1,468 @@
+{
+ "geoms": {
+ "geom1_point_plot1": {
+ "geom": "point",
+"classed": "geom1_point_plot1",
+"aes": {
+ "x": "mpg",
+"y": "disp",
+"colour": "Cyl",
+"showSelectedlegendcolour": "Cyl" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false 
+},
+"types": {
+ "colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"showSelectedlegendcolour": "factor",
+"PANEL": "integer",
+"fill": "rgb",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelectedlegendcolour" 
+],
+"subset_order": [
+ "showSelectedlegendcolour" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom2_point_plot2": {
+ "geom": "point",
+"classed": "geom2_point_plot2",
+"aes": {
+ "x": "hp",
+"y": "wt",
+"colour": "Cyl",
+"showSelectedlegendcolour": "Cyl" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false 
+},
+"types": {
+ "colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"showSelectedlegendcolour": "factor",
+"PANEL": "integer",
+"fill": "rgb",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelectedlegendcolour" 
+],
+"subset_order": [
+ "showSelectedlegendcolour" 
+],
+"chunks": 1,
+"total": 1 
+} 
+},
+"selectors": {
+ "Cyl": {
+ "type": "multiple",
+"legend": true,
+"is.variable.value": false,
+"showSelected": true,
+"selected": [ "6", "4", "8" ],
+"levels": [ "6", "4", "8" ],
+"update": [
+ "geom1_point_plot1",
+"geom2_point_plot2" 
+] 
+} 
+},
+"plots": {
+ "plot1": {
+ "panel_margin_lines":     0.25,
+"legend": {
+ "Cyl": {
+ "guide": "legend",
+"geoms": "point",
+"title": "Cyl",
+"class": "Cyl",
+"selector": "Cyl",
+"is_discrete": true,
+"legend_type": "colour",
+"text_size": "8.8pt",
+"title_size": "11pt",
+"entries": [
+ {
+ "pointcolour": "#619CFF",
+"pointshape":       19,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"label": "8" 
+},
+{
+ "pointcolour": "#00BA38",
+"pointshape":       19,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"label": "6" 
+},
+{
+ "pointcolour": "#F8766D",
+"pointshape":       19,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"label": "4" 
+} 
+] 
+} 
+},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#EBEBEB",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": [],
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+       10,
+      15,
+      20,
+      25,
+      30,
+      35 
+] 
+],
+"y": [
+ [
+      100,
+     200,
+     300,
+     400 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FFFFFF",
+"size":     0.25,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+       10,
+    12.5,
+      15,
+    17.5,
+      20,
+    22.5,
+      25,
+    27.5,
+      30,
+    32.5,
+      35 
+] 
+],
+"y": [
+ [
+      100,
+     150,
+     200,
+     250,
+     300,
+     350,
+     400,
+     450 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+       10,
+      15,
+      20,
+      25,
+      30,
+      35 
+],
+"xlab": [
+ "10",
+"15",
+"20",
+"25",
+"30",
+"35" 
+],
+"xrange": [    9.225,   35.075 ],
+"xline": true,
+"xticks": true,
+"y": [
+      100,
+     200,
+     300,
+     400 
+],
+"ylab": [
+ "100",
+"200",
+"300",
+"400" 
+],
+"yrange": [   51.055,  492.045 ],
+"yline": true,
+"yticks": true 
+},
+"xtitle": "mpg",
+"strip_text_xsize": "11pt",
+"xsize": "11pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "disp",
+"strip_text_ysize": "11pt",
+"ysize": "11pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "10",
+"15",
+"20",
+"25",
+"30",
+"35" 
+],
+"ylabs": [
+ "100",
+"200",
+"300",
+"400" 
+],
+"title_size": "13.2pt",
+"options": {
+ "width":      400,
+"height":      400 
+},
+"geoms": [
+ "geom1_point_plot1" 
+] 
+},
+"plot2": {
+ "panel_margin_lines":     0.25,
+"legend": {
+ "Cyl": {
+ "guide": "legend",
+"geoms": "point",
+"title": "Cyl",
+"class": "Cyl",
+"selector": "Cyl",
+"is_discrete": true,
+"legend_type": "colour",
+"text_size": "8.8pt",
+"title_size": "11pt",
+"entries": [
+ {
+ "pointcolour": "#619CFF",
+"pointshape":       19,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"label": "8" 
+},
+{
+ "pointcolour": "#00BA38",
+"pointshape":       19,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"label": "6" 
+},
+{
+ "pointcolour": "#F8766D",
+"pointshape":       19,
+"pointsize":      1.5,
+"pointstroke":      0.5,
+"label": "4" 
+} 
+] 
+} 
+},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#EBEBEB",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": [],
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+      100,
+     200,
+     300 
+] 
+],
+"y": [
+ [
+        2,
+       3,
+       4,
+       5 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FFFFFF",
+"size":     0.25,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+       50,
+     100,
+     150,
+     200,
+     250,
+     300 
+] 
+],
+"y": [
+ [
+      1.5,
+       2,
+     2.5,
+       3,
+     3.5,
+       4,
+     4.5,
+       5,
+     5.5 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+      100,
+     200,
+     300 
+],
+"xlab": [
+ "100",
+"200",
+"300" 
+],
+"xrange": [    37.85,   349.15 ],
+"xline": true,
+"xticks": true,
+"y": [
+        2,
+       3,
+       4,
+       5 
+],
+"ylab": [
+ "2",
+"3",
+"4",
+"5" 
+],
+"yrange": [  1.31745,  5.61955 ],
+"yline": true,
+"yticks": true 
+},
+"xtitle": "hp",
+"strip_text_xsize": "11pt",
+"xsize": "11pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "wt",
+"strip_text_ysize": "11pt",
+"ysize": "11pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "100",
+"200",
+"300" 
+],
+"ylabs": [
+ "2",
+"3",
+"4",
+"5" 
+],
+"title_size": "13.2pt",
+"options": {
+ "width":      400,
+"height":      400 
+},
+"geoms": [
+ "geom2_point_plot2" 
+] 
+} 
+},
+"title": "Motor Trend Cars data viz",
+"source": "https://github.com/animint/animint2/blob/master/R/z_pages.R" 
+}
